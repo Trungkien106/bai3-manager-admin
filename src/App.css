@@ -1,0 +1,60 @@
+.login {
+  position: relative;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-inner {
+  background-color: gray;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.login-inner form {
+  width: 60%;
+}
+
+.login-inner h1,
+.login-inner h4,
+.login-inner p {
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.title {
+  margin-top: 75px;
+  margin-left: 100px;
+}
+
+.table-form {
+  margin: 20px 100px 30px 100px;
+}
+
+.btn-add {
+  position: fixed;
+  right: 0;
+  top: 85px;
+}
